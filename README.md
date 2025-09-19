@@ -1,4 +1,4 @@
-##BERT Financial News Classification ETL
+## BERT Financial News Classification ETL
 
 This project demonstrates an end-to-end ETL pipeline and NLP classification system for financial news, designed with a strong focus on scalability, automation, and deployment-readiness.
 
