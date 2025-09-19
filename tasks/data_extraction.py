@@ -6,10 +6,12 @@ import json
 import os
 import time
 import hashlib
+from dotenv import load_dotenv
 
-FMP_API_KEY = "Ch2eq1ZARNeu0ePAYLOVV8esLSrwQ77H"
-ALPHA_VANTAGE_KEY = "STEFNAH61VG6RW3N"
-NEWSAPI_KEY = "981528e4e3a34c8c87b32c95fa0e3edb"
+load_dotenv()
+FMP_API_KEY = os.getenv("FMP_API_KEY")
+ALPHA_VANTAGE_KEY = os.getenv("ALPHA_VANTAGE_KEY")
+NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 
 API_CONFIGS = [
     {
