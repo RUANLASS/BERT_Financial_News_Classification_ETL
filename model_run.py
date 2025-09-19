@@ -35,7 +35,7 @@ label_map = {
 # -----------------------------
 @st.cache_resource
 def load_model():
-    model_path = "/app/bert-finance-model"
+    model_path = "RUANLASS/bert-finance-model"
     model = BertForSequenceClassification.from_pretrained(model_path)
     tokenizer = BertTokenizer.from_pretrained(model_path)
     return model, tokenizer

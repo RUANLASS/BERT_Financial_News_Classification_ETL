@@ -18,3 +18,5 @@ venv/
 
 # Docker
 *.dockerignore
+bert-finance-model/
+
