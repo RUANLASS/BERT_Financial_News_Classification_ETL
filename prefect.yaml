@@ -1,0 +1,11 @@
+# prefect.yaml
+name: bert-finance-project   # your project name
+prefect-version: 3.0.0       # match what you have in Docker
+
+deployments:
+  - name: etl-deployment     # deployment name
+    entrypoint: pipeline.py:etl_flow   # flow location (file.py:function)
+    work_pool:
+      name: default-agent-pool   # Prefect work pool your agent listens to
+      job_variables: {}
+    tags: ["etl", "finance"]
