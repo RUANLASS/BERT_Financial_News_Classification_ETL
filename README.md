@@ -27,12 +27,12 @@ Tech Stack:
 - Version Control: Git 
 
 Project Structure
-BERT_Finance/ \
-│── prefect_flows/ <br />      # ETL pipelines (Prefect flows)
-│── bert-finance-model/ <br />  # (ignored in repo, hosted on Hugging Face Hub)
-│── model_run.py <br />         # Streamlit app entry point
-│── requirements.txt <br />     # Dependencies
-│── README.md <br />            # Project documentation
+BERT_Finance/  <br />
+│── prefect_flows/      # ETL pipelines (Prefect flows) <br />
+│── bert-finance-model/   # (ignored in repo, hosted on Hugging Face Hub) <br />
+│── model_run.py         # Streamlit app entry point <br />
+│── requirements.txt      # Dependencies <br />
+│── README.md           # Project documentation <br />
 
 Running the Project
 1. Clone the repo: 
